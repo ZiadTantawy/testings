@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1f2937;
+    margin-bottom: 0;
+}
+
+nav{
+    width:820px;
+    height: 60px;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav .logo{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+nav .links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    list-style:none;
+    color: black;
+    border: 1px solid white;
+    margin: 0 10px;
+    padding:7px 25px ;
+    background-color: #ffffff;
+
+}
+
+nav a{
+    text-decoration: none;
+    color:inherit;
+}
+
+nav li:hover{
+    transform: translateX(2px) translateY(-2px);
+    border: none;
+    color: #1f2937;
+    background-color: #fff;
+}
+
+#cover{
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+
+}
+h1{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.cover-left p{
+    color:#ccc;
+}
+.cover-left button{
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-family: "Josefin Sans", sans-serif;
+    padding:7px 25px;
+    border:none;
+}
+.cover-left button:hover{
+    color: #fff;
+    background-color: #3882f6;
+    transform: translateY(-2px);
+    box-shadow: -1px 8px 16px 0px #11171f;
+}
+
+.cover-right img{
+    width: 500px;
+}
+
+#cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 350px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.card-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+    width: 150px;
+  }
+
+.card img{
+    border: radius 25px; ;
+    width: 200px;
+}
+
+.card p {
+    font-size: 13px;
+  }
+
+
+
+
